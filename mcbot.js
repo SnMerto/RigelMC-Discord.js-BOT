@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const { ip, port, token , prefix, supportCategory, supportTakeChannel, autoRoleID, girisCikisID } = require('./config.json');
+const { ip, port , prefix, supportCategory, supportTakeChannel, autoRoleID, girisCikisID } = require('./config.json');
 var url = 'http://mcapi.us/server/status?ip=' + ip + '&port=' + port;
 const request = require('request');
 
@@ -209,4 +209,4 @@ else {
 }
 }
 });
-client.login(token);
+client.login("NjE4MTQ0MDQ4NzcwODQyNjg1.XY0zWw.6DO2YMxWwG_TSBYTEvuRIx5e3FM");
