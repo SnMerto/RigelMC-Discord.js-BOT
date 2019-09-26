@@ -1,9 +1,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const { ip, port, prefix, supportCategory, supportTakeChannel, autoRoleID, girisCikisID } = require('./config.json');
+const { ip, port, token , prefix, supportCategory, supportTakeChannel, autoRoleID, girisCikisID } = require('./config.json');
 var url = 'http://mcapi.us/server/status?ip=' + ip + '&port=' + port;
 const request = require('request');
-const token = 'NjE4MTQ0MDQ4NzcwODQyNjg1.XY0kNg.Cj6FwsWCb6JhjJWyivReHt3bKJA';
 
 client.on('ready', () => {
   console.log(`${client.user.tag} Çalışıyor!`);
@@ -17,7 +16,6 @@ client.on('ready', () => {
 
 
 });
-
 client.on('message', message => {
   const args = message.content.slice(prefix.length).split(' ');
   const command = args.shift().toLowerCase();
@@ -87,6 +85,7 @@ function update() {
     ]
     let statusx = statuses[Math.floor(Math.random() * statuses.length)];
     client.user.setActivity(statusx, {type: "STREAMING", url: "https://www.twitch.tv/solderlord00" });
+
 });
 }
 
@@ -210,6 +209,4 @@ else {
 }
 }
 });
-  
-
-client.login('NjE4MTQ0MDQ4NzcwODQyNjg1.XY0kNg.Cj6FwsWCb6JhjJWyivReHt3bKJA');
+client.login(token);
