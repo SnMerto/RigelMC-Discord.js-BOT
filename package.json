@@ -1,0 +1,16 @@
+{
+  "name": "rigelmc",
+  "version": "1.0.0",
+  "description": ":warning: For settings, please edit `config.json`.",
+  "main": "mcbot.js",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "geyik",
+  "license": "MIT"
+}
