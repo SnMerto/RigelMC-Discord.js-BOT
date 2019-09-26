@@ -70,7 +70,7 @@ function update() {
     var status = 'Sunucu çevrim dışı';
     if(body.online) {
       status = ip + ' ';
-      if(body.players.now) {
+      if(body.players.now > 0) {
           status += body.players.now + ' Çevrim içi';
 
       } else {
