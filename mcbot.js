@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const { ip, port, prefix, supportCategory, supportTakeChannel, autoRoleID, girisCikisID } = require('./config.json');
 var url = 'http://mcapi.us/server/status?ip=' + ip + '&port=' + port;
 const request = require('request');
-const token = 'NjE4MTQ0MDQ4NzcwODQyNjg1.XY0iiQ.6Kq0Uec1bluq6AwEBdx1d1fUcHA';
+const token = 'NjE4MTQ0MDQ4NzcwODQyNjg1.XY0kNg.Cj6FwsWCb6JhjJWyivReHt3bKJA';
 
 client.on('ready', () => {
   console.log(`${client.user.tag} Çalışıyor!`);
@@ -212,4 +212,4 @@ else {
 });
   
 
-client.login('NjE4MTQ0MDQ4NzcwODQyNjg1.XY0jZw.m4YmuPFB3AXbUro7pFsYRF9TVDI');
+client.login('NjE4MTQ0MDQ4NzcwODQyNjg1.XY0kNg.Cj6FwsWCb6JhjJWyivReHt3bKJA');
