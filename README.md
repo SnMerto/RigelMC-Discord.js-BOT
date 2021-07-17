@@ -1,3 +1,7 @@
 # Discord.js RigelMC Bot single class
  
-This bot has made for RigelMC for private usage and contains MIT license.
+ This project created when i was learning JS.
+
+ Have lot's of duplications and bad code style.
+
+ You can use it as document or learning java as beginner.
